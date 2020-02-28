@@ -1,0 +1,32 @@
+{
+  "name": "zapier-platform-example-app-minimal",
+  "version": "1.0.0",
+  "description": "An example app for the Zapier platform.",
+  "repository": "zapier/zapier-platform-example-app-minimal",
+  "homepage": "https://zapier.com/",
+  "author": "Bryan Helmig <bryan@zapier.com>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive lib/src/test/**/*.js",
+    "clean": "rimraf lib",
+    "build": "yarn clean && tsc -p tsconfig.json",
+    "zapier-test": "yarn build && zapier test"
+  },
+  "engines": {
+    "node": "10.16.1",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "zapier-platform-core": "9.1.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.6",
+    "mocha": "^5.2.0",
+    "rimraf": "^3.0.2",
+    "should": "^13.2.0",
+    "typescript": "^3.8.2"
+  },
+  "private": true
+}
