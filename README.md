@@ -1,6 +1,6 @@
 ## Zapier Typescript Types Testing Issue Demo
 
-This demo is for github issue https://github.com/zapier/zapier-platform/issues/8
+This demo is for github issue https://github.com/zapier/zapier-platform/issues/8#issuecomment-591877355
 
 ### Install
 
